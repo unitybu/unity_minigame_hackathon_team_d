@@ -2,12 +2,16 @@
 
 private var score:int;
 
-
 function addScore () {
-
-Debug.Log("asaa");
 	
+	Debug.Log("add",this);
 	score++;
+	guiText.text = score.ToString();
+} 
+
+function subScore () {
+	
+	score--;
 	guiText.text = score.ToString();
 } 
 

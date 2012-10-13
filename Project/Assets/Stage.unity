@@ -125,7 +125,7 @@ GameObject:
   - 136: {fileID: 201914466}
   - 23: {fileID: 201914464}
   m_Layer: 0
-  m_Name: Button
+  m_Name: button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1001,7 +1001,7 @@ GameObject:
   - 114: {fileID: 1907258082}
   m_Layer: 0
   m_Name: Stone-Player's
-  m_TagString: Untagged
+  m_TagString: you
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1151,6 +1151,10 @@ Prefab:
     - target: {fileID: 13600000, guid: c0b281fca39e0074d975fbaaeee0880c, type: 2}
       propertyPath: m_Direction
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c0b281fca39e0074d975fbaaeee0880c, type: 2}
+      propertyPath: m_TagString
+      value: you
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c0b281fca39e0074d975fbaaeee0880c, type: 2}
